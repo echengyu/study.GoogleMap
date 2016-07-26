@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Test Google Map</string>
+    <string name="version">version 1.0</string>
+    
+    <!-- All -->
+    <string name="loading">Loading&#8230;</string>
+    <string name="upload">File upload&#8230; Please wait&#8230;</string>
+    <string name="configure">Configure</string>
+    <string name="cancel">Cancel</string>
+    <string name="prompt">Prompt</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+    <string name="back">Back</string>
+    
+    <!-- MainActivity -->
+    <string name="about">Jagwir and Tech</string>
+    <string name="product">Product</string>
+    <string name="catalog">Catalog</string>
+    <string name="assembly">Location</string>
+    
+    <!-- AboutCatgActivity -->
+    <string name="toast_download_aboutcatg_fail">載入關於資料失敗</string>
+    
+    <!-- ProdCatgActivity -->
+    <string name="toast_download_prodcatg_fail">載入產品資料失敗</string>
+    
+    <!-- ThumbnailActivity -->
+    <string name="download">Download</string>
+    <string name="review">Review</string>
+    <string name="toast_download_album_first">Please download catalog first.</string>
+	<string name="toast_download_album_fail">Catalog download failed.</string>
+	<string name="toast_update_album_fail">Catalog update failed.</string>
+	<string name="alert_delete_album">Do you want to delete this catalog?</string>
+	
+	<!-- AssemblyCatgActivity -->
+    <string name="toast_download_assembly_fail">产品资料下载失败</string>
+    <string name="toast_update_assembly_fail">产品资料更新失败</string>
+    
+    <!-- LBSActivity -->
+    <string name="find">搜尋</string>
+    <string name="distributor">經銷商</string>
+    <string name="noKeyword">請輸入關鍵字</string>
+    
+    <string-array name="place_type">
+        <item>bicycle_road</item>
+        <item>gas_station</item>
+		<item>supermarket</item>
+		<item>restaurant</item>
+		<item>atm</item>
+		<item>bank</item>
+		<item>bus_station</item>
+		<item>church</item>
+		<item>hospital</item>
+		<item>movie_theater</item>
+    </string-array>
+    
+    <string-array name="place_type_name">
+        <item>Bicycle Road</item>
+        <item>Gas Station</item>
+        <item>Supermarket</item>
+        <item>Restaurant</item>
+        <item>ATM</item>
+        <item>Bank</item>
+        <item>Bus Station</item>        
+        <item>Church</item>
+        <item>Hospital</item>        
+        <item>Movie Theater</item>
+    </string-array>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="15dp" >
+
+    <RelativeLayout
+        android:id="@+id/rl_lbs_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Spinner
+            android:id="@+id/spr_place_type"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/btn_lbs_find" />
+
+        <Button
+            android:id="@+id/btn_lbs_find"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dp"
+            android:text="@string/find" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_lbs_keyword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_lbs_spinner" >
+
+        <EditText
+            android:id="@+id/et_lbs_keyword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@+id/btn_lbs_searchKeyword" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/btn_lbs_searchKeyword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="@string/find" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_lbs_map"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_lbs_keyword" >
+
+        <fragment
+            android:id="@+id/frg_lbs_map"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            class="com.google.android.gms.maps.SupportMapFragment" />
+
+        <ImageButton
+            android:id="@+id/imgbtn_lbs_getLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@color/transparent"
+            android:src="@drawable/location"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</RelativeLayout>

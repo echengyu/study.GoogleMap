@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Test Google Map</string>
+    <string name="version">version 1.0</string>
+    
+    <!-- All -->
+    <string name="loading">数据加载中&#8230;请稍侯&#8230;</string>
+    <string name="upload">资料上传中&#8230;请稍侯&#8230;</string>
+    <string name="configure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="prompt">提示</string>
+    <string name="delete">删除</string>
+    <string name="update">更新</string>
+    <string name="back">返回</string>
+    
+    <!-- MainActivity -->
+    <string name="about">Jagwire与科技</string>
+    <string name="product">产品介绍</string>
+    <string name="catalog">产品目录</string>
+    <string name="assembly">店家位置</string>
+    
+    <!-- AboutCatgActivity -->
+    <string name="toast_download_aboutcatg_fail">下载资料失败,请检查网路连线</string>
+    
+    <!-- ProdCatgActivity -->
+    <string name="toast_download_prodcatg_fail">下载资料失败,请检查网路连线</string>
+    
+    <!-- ThumbnailActivity -->
+    <string name="download">下载</string>
+    <string name="review">检视</string>
+    <string name="toast_download_album_first">请先下载型录</string>
+	<string name="toast_download_album_fail">型录下载失败</string>
+	<string name="toast_update_album_fail">型录更新失败</string>
+	<string name="alert_delete_album">确定要删除勾选的目录?</string>
+	
+	<!-- AssemblyCatgActivity -->
+    <string name="toast_download_assembly_fail">产品资料下载失败</string>
+    <string name="toast_update_assembly_fail">产品资料更新失败</string>
+    
+    <!-- LBSActivity -->
+    <string name="find">搜寻</string>
+    <string name="distributor">经销商</string>
+    <string name="noKeyword">请输入关键字</string>
+    
+    <string-array name="place_type">
+        <item>bicycle_road</item>
+        <item>gas_station</item>
+		<item>supermarket</item>
+		<item>restaurant</item>
+		<item>atm</item>
+		<item>bank</item>
+		<item>bus_station</item>
+		<item>church</item>
+		<item>hospital</item>
+		<item>movie_theater</item>
+    </string-array>
+    
+    <string-array name="place_type_name">
+        <item>自行车道</item>
+        <item>加油站</item>
+        <item>超商</item>
+        <item>餐厅</item>
+        <item>提款机</item>
+        <item>银行</item>
+        <item>公车站</item>        
+        <item>教堂</item>
+        <item>医院</item>        
+        <item>电影院</item>
+    </string-array>
+</resources>
+
