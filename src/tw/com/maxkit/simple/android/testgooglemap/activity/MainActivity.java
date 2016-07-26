@@ -58,6 +58,14 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+/*
+ * 使用 Google Maps Adnroid API v2 完整客製化地圖(一)
+ * http://blog.maxkit.com.tw/2015/04/google-maps-adnroid-api-v2.html
+ * 
+ * 使用 Google Maps Adnroid API v2 完整客製化地圖(二)
+ * http://blog.maxkit.com.tw/2015/04/google-maps-adnroid-api-v2_24.html
+ */
+
 public class MainActivity extends BasicActivity implements LocationListener {
 	
 	private Button btn_lbs_find; // 下拉選單搜尋
