@@ -24,6 +24,7 @@ import tw.com.maxkit.simple.android.testgooglemap.util.PlaceJSONParser;
 import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.graphics.Point;
 import android.location.Criteria;
 import android.location.Location;
@@ -90,6 +91,9 @@ public class MainActivity extends BasicActivity implements LocationListener {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		
+		// 設定本頁面為直向
+		setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
 		// 載入物件
 		initComponent();

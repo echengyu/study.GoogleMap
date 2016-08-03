@@ -1,2 +1,5 @@
 eclipse.preferences.version=1
+encoding//src/tw/com/maxkit/simple/android/testgooglemap/activity/BasicActivity.java=UTF-8
 encoding//src/tw/com/maxkit/simple/android/testgooglemap/activity/MainActivity.java=UTF-8
+encoding//src/tw/com/maxkit/simple/android/testgooglemap/adapter/MapInfoAdapter.java=UTF-8
+encoding//src/tw/com/maxkit/simple/android/testgooglemap/data/LocationInfo.java=UTF-8
